@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 Optimized CLI Chatbot for Llama-3.1-8B-Instruct
-Hardware: Intel i3-1215U, 8GB RAM, Intel UHD Graphics
-Optimized for maximum performance on your hardware
+My hardware: Intel i3-1215U, 8GB DDR4 RAM, Intel UHD Graphics
 """
 
 import os
@@ -90,7 +89,7 @@ class ChatBot:
             
             # Calculate RAM usage
             kv_cache_gb = (MODEL_CONFIG['n_ctx'] * 2 * 33) / (1024**3)
-            model_gb = 4.5  # Q4_K_M model size
+            model_gb = 4.5 
             total_gb = kv_cache_gb + model_gb
             
             print(f"📊 Context: {MODEL_CONFIG['n_ctx']:,} tokens | Threads: {MODEL_CONFIG['n_threads']}")
