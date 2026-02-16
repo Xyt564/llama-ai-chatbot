@@ -50,7 +50,6 @@ Download the GGUF model from:
 
 ```
 Llama-3.1-8B-Instruct-Q4_K_M.gguf
-
 ```
 
 ---
@@ -67,7 +66,11 @@ After setup, your project should look like:
 ├── models/
 │   └── Llama-3.1-8B-Instruct-Q4_K_M.gguf
 ├── chat_history/
-└── assets/
+├── README.md
+├── security.md
+├── assets/
+|   └── demo.png
+└── License
 
 ````
 
@@ -79,8 +82,11 @@ After setup, your project should look like:
 
 ```bash
 git clone https://github.com/Xyt564/llama-ai-chatbot.git
+```
+
+```bash
 cd llama-ai-chatbot
-````
+```
 
 ---
 
@@ -98,7 +104,7 @@ pip install -r requirements.txt
 mkdir -p models
 ```
 
-> Save ur Ai model in this models folder
+> Save ur Ai model inside the models folder
 
 ---
 
@@ -120,7 +126,7 @@ models/Llama-3.1-8B-Instruct-Q4_K_M.gguf
 python3 main.py
 ```
 
-On first launch, the model will load into memory — this may take a little time on lower-end CPUs.
+> On first launch, the model will load into memory — this may take a little time on lower-end CPUs.
 
 ---
 
@@ -156,7 +162,8 @@ This configuration is tuned specifically for **8GB RAM systems**:
 * KV cache: ~6.5GB
 * Model size: ~4.5GB
 
-> can be made less but it will very slowly. visit my phi-2 gui ai chatbot for lower ram systems
+> Ram usage can be lowered but it affect the performance heavily and make it extremly slow.
+> Visit my phi-2 gui ai chatbot for lower ram systems
 
 If you experience:
 
@@ -181,12 +188,14 @@ You may need to:
 
 ---
 
-## 📌 Notes (Only do this if you know what ur doing)
+## 📌 Notes
 
 * Runs CPU-only by default
 * GPU acceleration can be enabled by adjusting `n_gpu_layers`
 * Chat history is stored in `chat_history/`
 * Streaming is enabled for better responsiveness
+
+> Only change these if you know what ur doing
 
 ---
 
