@@ -78,8 +78,8 @@ After setup, your project should look like:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Xyt564/dream-finder.git
-cd dream-finder
+git clone https://github.com/Xyt564/llama-ai-chatbot.git
+cd llama-ai-chatbot
 ````
 
 ---
