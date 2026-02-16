@@ -104,7 +104,7 @@ pip install -r requirements.txt
 mkdir -p models
 ```
 
-> Save ur Ai model inside the models folder
+> Save your Ai model inside the models folder
 
 ---
 
