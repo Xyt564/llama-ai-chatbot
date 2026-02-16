@@ -123,7 +123,7 @@ models/Llama-3.1-8B-Instruct-Q4_K_M.gguf
 ### 5. Run the chatbot
 
 ```bash
-python3 main.py
+python3 llama_chatbot.py
 ```
 
 > On first launch, the model will load into memory — this may take a little time on lower-end CPUs.
