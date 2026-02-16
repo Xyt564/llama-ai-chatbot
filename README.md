@@ -140,15 +140,9 @@ Inside the chatbot, you can use:
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshot / Demo:
 
-```
-assets/demo.png
-```
-
-Then it will render below:
-
-![Chatbot Running](assets/running.png)
+![Chatbot Running](assets/demo.png)
 
 ---
 
