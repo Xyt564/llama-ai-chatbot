@@ -7,7 +7,6 @@ This project is currently maintained on the latest commit of the main branch.
 |Version | Supported |
 |--------|-----------|
 | Latest | ✅        |
-|        |           |
 ----------------------
 
 ---
