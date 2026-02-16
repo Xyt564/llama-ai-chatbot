@@ -18,9 +18,7 @@ If you discover a security vulnerability, **please report it responsibly and pri
 ### Preferred method
 
 - Open a **request** on GitHub  
-- Contact the maintainer directly via GitHub.
-
-Please **do NOT** open a public issue for security vulnerabilities.
+- Contact the maintainer directly via GitHub
 
 ---
 
