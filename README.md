@@ -163,7 +163,8 @@ This configuration is tuned specifically for **8GB RAM systems**:
 * Model size: ~4.5GB
 
 > Ram usage can be lowered but it affect the performance heavily and make it extremly slow.
-> Visit my phi-2 gui ai chatbot for lower ram systems
+
+> Visit my phi-2 gui ai chatbot for lower ram systems.
 
 If you experience:
 
